@@ -1,0 +1,307 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
+html{
+	background-color: #282828;
+}
+
+body{
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+
+.wrapper{
+	font-size: 1.6em;
+	font-family: Open Sans;
+	margin: 0 auto;
+	max-width: 980px;
+	background-color: white;
+	color:white;
+}
+
+.banner-img{
+	width: 100%;
+	height: auto;
+	float:left;
+}
+
+.top-nav{
+	width:100%;
+	background-color: #76c7c0;
+	float:left;
+	margin-top:-5px;
+}
+
+.team-name{
+	width: 25%;
+	height: auto;
+	text-align: center;
+	padding: 14px 0px;
+	margin-bottom: -14px;
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+}
+
+.big-Star{
+	font-weight: bold;
+	font-size:100%;
+}
+
+.top-nav-right{
+	width: 75%;
+	float: right;
+	font-size: 100%;
+}
+
+.top-nav-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} 
+
+.list-nav li{
+	display: inline;
+	float: left;
+	font-size: 90%;
+}
+
+.list-nav li a {
+    display: block;
+    width: 147px;
+    padding: 14px 48px;
+    text-decoration: none;
+    text-align: right;
+    color: white;
+}
+
+.list-nav li a:hover {
+    background-color: #62a29e;
+    color: white;
+}
+
+.active {
+    background-color: #ecb700;
+    color: white;
+}
+
+.top-detail-bar{
+	width: 100%;
+}
+
+.about-us{
+	width: 25%;
+	height: auto;
+	text-align: center;
+	padding: 15px 10px;
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+	color: #7f8c8c;
+	background-color: #ececec;
+	font-size: 0.9em;
+}
+
+.abs-address{
+	width: 75%;
+	height: auto;
+	text-align: right;
+	padding: 16px 40px;
+	vertical-align: middle;
+	float: right;
+	display: inline-block;
+	color: #7f8c8c;
+	background-color: #ececec;
+	font-size: 0.75em;
+}
+
+.main-area{
+	width: 100%;
+	background-color: #44aaa1;
+	overflow: hidden;
+}
+
+.left-nav{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+
+.left-nav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #44aaa1;
+}
+
+.left-nav ul li{
+	padding-top: 30px;
+	font-size: 90%;
+}
+
+.left-nav ul li a{
+	display: block;
+    padding: 10px 5px 8px 16px;
+    text-decoration: none;
+    text-align: left;
+    color:white;
+}
+
+.left-nav li a:hover {
+    background-color: #62a29e;
+}
+
+.left-nav-active{
+	color: #ffcc00;
+	display: block;
+    padding: 10px 5px 8px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.team-info{
+	width: 75%;
+	float: right;
+	background-color: white;
+}
+
+.team-img{
+	width: 100%;
+	float: left;
+	padding-top: 15px;
+}
+
+#team-pic{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+   	padding-top: 20px;
+   	padding-bottom: 30px;
+   	width: 50%;
+   	height: auto;
+}
+
+.member-img{
+	width: 100%;
+	text-align: justify;
+}
+
+.member-img img{
+	 display: block;
+	 width: 25%;
+	 float:left;
+	 padding-left: 15px;
+	 padding-bottom: 30px;
+	 padding-right: 10px;
+}
+
+.footer-area{
+	width: 100%;
+	background-color: #76c7c0;
+	float: left;
+}
+
+.contact-detail{
+	width: 50%;
+	float: left;
+}
+
+.team-name-footer{
+	width: 100%;
+	padding-left: 22%;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+}
+
+.detail{
+	width: 100%;
+	padding-left: 22%;
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+	padding-bottom: 20px;
+	vertical-align: middle;
+}
+
+.phone{
+	width: 100%;
+	padding-left: 22%;
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+}
+
+.e-mail{
+	width: 100%;
+	padding-left: 22%;
+	padding-bottom: 30px;
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+}
+
+.footer-right{
+	width: 35%;
+	float: right;
+}
+
+.right-detail{
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.ending{
+	width: 100%;
+	background-color: #6ab3ac;
+	float: left;
+}
+
+.end-left{
+	width: 50%;
+	padding-left: 11%;
+	padding-top: 14px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+.end-right{
+	width: 22%;
+	padding-top: 14px;
+	padding-bottom: 10px;
+	float: right;
+}
+.pattern_decor{
+	vertical-align: top;
+	margin-top: -5px;
+}
+
+@media only screen and (max-width: 700px) {
+    .left-nav{
+    	width: 0%;
+    	visibility: hidden;
+    }
+
+    .team-info{
+    	width: 100%;
+    	float: left;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+	.member-img img{
+		width: 50%;
+	}
+}
