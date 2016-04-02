@@ -15,7 +15,7 @@ body{
 	font-family: sans-serif;
 }
 
-.wrapper{
+#wrapper{
 	font-size: 1.6em;
 	font-family: Open Sans;
 	margin: 0 auto;
@@ -81,22 +81,19 @@ body{
     color: white;
 }
 
-
 .list-nav li a:hover {
     background-color: #62a29e;
-    color: white;
 }
 
 .active {
     background-color: #ecb700;
-    color: white;
 }
 
 .top-detail-bar{
 	width: 100%;
 }
 
-.about-us{
+.member-site{
 	width: 25%;
 	height: auto;
 	text-align: center;
@@ -121,89 +118,94 @@ body{
 	background-color: #ececec;
 	font-size: 0.75em;
 }
-.main-area{
+
+#main-area{
 	width: 100%;
-	background-color: #44aaa1;
+	/*background-color: #44aaa1;*/
+	background-color: black;
 	overflow: hidden;
 }
 
-.left-nav{
+#left-nav{
 	width: 25%;
-	height: 100%;
 	float: left;
-	
+	background-color: #44aaa1;
+	padding-bottom: 500em;
+	margin-bottom: -500em;
 }
 
-
-.left-nav ul{
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: #44aaa1;
+#left-nav ul{
+	padding-top: 25px;	
 }
 
-.left-nav ul li{
-	padding-top: 30px;
+#left-nav ul li{
+	padding-top: 5px;
 	font-size: 90%;
 }
 
-.left-nav ul li a{
+#left-nav ul li a{
 	display: block;
     padding: 10px 5px 8px 16px;
     text-decoration: none;
     text-align: left;
     color:white;
+    background-color: #7ec2be;
 }
 
-.left-nav li a:hover {
-    background-color: #62a29e;
+.comment{
+	background-color: #ecb700 !important;
 }
 
-.left-nav-active{
-	color: #ffcc00;
-	display: block;
-    padding: 10px 5px 8px 16px;
+/* ------------------------------------------- */
+
+
+.member-detail ul{
+	list-style-type: none;
+    padding: 0px 0px 100px 0px;
+    width: 100%;
+}
+
+.member-post-header{
+	font-size: 2em;
+	text-align: center;
     text-decoration: none;
-    text-align: left;
+    color: #44aaa1;
 }
+.member-post{
+	padding-top: 0px;
+	font-size: 100%;
+	display: block;
+    padding: 50px;
+    text-decoration: none;
+    text-align: justify;
+    color: #44aaa1;
+}
+/* End of main info of member
+/* ------------------------------------------- */
 
-.team-info{
+#member-info{
 	width: 75%;
 	float: right;
 	background-color: white;
+	padding-bottom: 500em;
+	margin-bottom: -500em;
 }
 
-.team-img{
+.member-img{
 	width: 100%;
-	float: left;
+	float: right;
 	padding-top: 15px;
 }
 
-#team-pic{
+#member-pic{
 	display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
    	padding-top: 20px;
    	padding-bottom: 30px;
-   	width: 50%;
+   	width: 25%;
    	height: auto;
-}
-
-
-.member-img{
-	width: 100%;
-	text-align: justify;
-}
-
-.member-img img{
-	 display: block;
-	 width: 25%;
-	 float:left;
-	 padding-left: 15px;
-	 padding-bottom: 30px;
-	 padding-right: 10px;
 }
 
 .footer-area{
@@ -284,7 +286,26 @@ body{
 	padding-bottom: 10px;
 	float: right;
 }
+
 .pattern_decor{
 	vertical-align: top;
 	margin-top: -5px;
+}
+
+#comment-box{
+	width: 100%;
+	padding-top: 50%;
+	padding-bottom: 22%;
+	padding-left: 21px;
+	padding-right: 21px;
+}
+
+.submit-img{
+	padding-right: 3px;
+	width: 49%;
+	float: right;
+}
+
+.comment-box{
+	width: 100%;
 }
