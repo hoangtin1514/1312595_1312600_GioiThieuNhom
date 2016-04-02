@@ -284,7 +284,29 @@ body{
 	padding-bottom: 10px;
 	float: right;
 }
+<<<<<<< HEAD
 .pattern_decor{
 	vertical-align: top;
 	margin-top: -5px;
+=======
+
+
+@media only screen and (max-width: 700px) {
+    .left-nav{
+    	width: 0%;
+    	visibility: hidden;
+    }
+
+    .team-info{
+    	width: 100%;
+    	float: left;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+	.member-img img{
+		width: 50%;
+	}
+>>>>>>> refs/remotes/origin/HomePage
 }
