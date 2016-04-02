@@ -15,11 +15,7 @@ body{
 	font-family: sans-serif;
 }
 
-<<<<<<< HEAD
 .wrapper{
-=======
-#wrapper{
->>>>>>> refs/remotes/origin/master
 	font-size: 1.6em;
 	font-family: Open Sans;
 	margin: 0 auto;
@@ -85,19 +81,34 @@ body{
     color: white;
 }
 
+<<<<<<< HEAD
 .list-nav li a:hover {
     background-color: #62a29e;
+=======
+
+.list-nav li a:hover {
+    background-color: #62a29e;
+    color: white;
+>>>>>>> master
 }
 
 .active {
     background-color: #ecb700;
+<<<<<<< HEAD
+=======
+    color: white;
+>>>>>>> master
 }
 
 .top-detail-bar{
 	width: 100%;
 }
 
+<<<<<<< HEAD
 .member-site{
+=======
+.about-us{
+>>>>>>> master
 	width: 25%;
 	height: auto;
 	text-align: center;
@@ -122,8 +133,10 @@ body{
 	background-color: #ececec;
 	font-size: 0.75em;
 }
-
 <<<<<<< HEAD
+
+=======
+>>>>>>> master
 .main-area{
 	width: 100%;
 	background-color: #44aaa1;
@@ -152,39 +165,11 @@ body{
 }
 
 .left-nav ul li a{
-=======
-#main-area{
-	width: 100%;
-	/*background-color: #44aaa1;*/
-	background-color: black;
-	overflow: hidden;
-}
-
-#left-nav{
-	width: 25%;
-	float: left;
-	background-color: #44aaa1;
-	padding-bottom: 500em;
-	margin-bottom: -500em;
-}
-
-#left-nav ul{
-	padding-top: 25px;	
-}
-
-#left-nav ul li{
-	padding-top: 5px;
-	font-size: 90%;
-}
-
-#left-nav ul li a{
->>>>>>> refs/remotes/origin/master
 	display: block;
     padding: 10px 5px 8px 16px;
     text-decoration: none;
     text-align: left;
     color:white;
-<<<<<<< HEAD
 }
 
 .left-nav li a:hover {
@@ -197,29 +182,19 @@ body{
     padding: 10px 5px 8px 16px;
     text-decoration: none;
     text-align: left;
-=======
-    background-color: #7ec2be;
 }
 
-.comment{
-	background-color: #ecb700 !important;
->>>>>>> refs/remotes/origin/master
-}
-
+<<<<<<< HEAD
 /* ------------------------------------------- */
 
 
 .member-detail ul{
 	list-style-type: none;
-<<<<<<< HEAD
     margin: 0;
-=======
->>>>>>> refs/remotes/origin/master
     padding: 0px 0px 100px 0px;
     width: 100%;
 }
 
-<<<<<<< HEAD
 .member-detail ul li{
 	padding-top: 0px;
 	font-size: 90%;
@@ -241,37 +216,15 @@ body{
 /* ------------------------------------------- */
 
 .member-info{
-	width: 75%;
-	float: right;
-	background-color: white;
 =======
-.member-post-header{
-	font-size: 2em;
-	text-align: center;
-    text-decoration: none;
-    color: #44aaa1;
-}
-.member-post{
-	padding-top: 0px;
-	font-size: 100%;
-	display: block;
-    padding: 50px;
-    text-decoration: none;
-    text-align: justify;
-    color: #44aaa1;
-}
-/* End of main info of member
-/* ------------------------------------------- */
-
-#member-info{
+.team-info{
+>>>>>>> master
 	width: 75%;
 	float: right;
 	background-color: white;
-	padding-bottom: 500em;
-	margin-bottom: -500em;
->>>>>>> refs/remotes/origin/master
 }
 
+<<<<<<< HEAD
 .member-img{
 	width: 100%;
 	float: right;
@@ -279,16 +232,47 @@ body{
 }
 
 #member-pic{
+=======
+.team-img{
+	width: 100%;
+	float: left;
+	padding-top: 15px;
+}
+
+#team-pic{
+>>>>>>> master
 	display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
    	padding-top: 20px;
    	padding-bottom: 30px;
+<<<<<<< HEAD
    	width: 25%;
    	height: auto;
 }
 
+=======
+   	width: 50%;
+   	height: auto;
+}
+
+
+.member-img{
+	width: 100%;
+	text-align: justify;
+}
+
+.member-img img{
+	 display: block;
+	 width: 25%;
+	 float:left;
+	 padding-left: 15px;
+	 padding-bottom: 30px;
+	 padding-right: 10px;
+}
+
+>>>>>>> master
 .footer-area{
 	width: 100%;
 	background-color: #76c7c0;
@@ -367,29 +351,11 @@ body{
 	padding-bottom: 10px;
 	float: right;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 .pattern_decor{
 	vertical-align: top;
 	margin-top: -5px;
 }
-<<<<<<< HEAD
-=======
-
-#comment-box{
-	width: 100%;
-	padding-top: 50%;
-	padding-bottom: 22%;
-	padding-left: 21px;
-	padding-right: 21px;
-}
-
-.submit-img{
-	padding-right: 3px;
-	width: 49%;
-	float: right;
-}
-
-.comment-box{
-	width: 100%;
-}
->>>>>>> refs/remotes/origin/master
