@@ -15,7 +15,11 @@ body{
 	font-family: sans-serif;
 }
 
+<<<<<<< HEAD
 .wrapper{
+=======
+#wrapper{
+>>>>>>> refs/remotes/origin/master
 	font-size: 1.6em;
 	font-family: Open Sans;
 	margin: 0 auto;
@@ -119,6 +123,7 @@ body{
 	font-size: 0.75em;
 }
 
+<<<<<<< HEAD
 .main-area{
 	width: 100%;
 	background-color: #44aaa1;
@@ -147,11 +152,39 @@ body{
 }
 
 .left-nav ul li a{
+=======
+#main-area{
+	width: 100%;
+	/*background-color: #44aaa1;*/
+	background-color: black;
+	overflow: hidden;
+}
+
+#left-nav{
+	width: 25%;
+	float: left;
+	background-color: #44aaa1;
+	padding-bottom: 500em;
+	margin-bottom: -500em;
+}
+
+#left-nav ul{
+	padding-top: 25px;	
+}
+
+#left-nav ul li{
+	padding-top: 5px;
+	font-size: 90%;
+}
+
+#left-nav ul li a{
+>>>>>>> refs/remotes/origin/master
 	display: block;
     padding: 10px 5px 8px 16px;
     text-decoration: none;
     text-align: left;
     color:white;
+<<<<<<< HEAD
 }
 
 .left-nav li a:hover {
@@ -164,6 +197,13 @@ body{
     padding: 10px 5px 8px 16px;
     text-decoration: none;
     text-align: left;
+=======
+    background-color: #7ec2be;
+}
+
+.comment{
+	background-color: #ecb700 !important;
+>>>>>>> refs/remotes/origin/master
 }
 
 /* ------------------------------------------- */
@@ -171,11 +211,15 @@ body{
 
 .member-detail ul{
 	list-style-type: none;
+<<<<<<< HEAD
     margin: 0;
+=======
+>>>>>>> refs/remotes/origin/master
     padding: 0px 0px 100px 0px;
     width: 100%;
 }
 
+<<<<<<< HEAD
 .member-detail ul li{
 	padding-top: 0px;
 	font-size: 90%;
@@ -200,6 +244,32 @@ body{
 	width: 75%;
 	float: right;
 	background-color: white;
+=======
+.member-post-header{
+	font-size: 2em;
+	text-align: center;
+    text-decoration: none;
+    color: #44aaa1;
+}
+.member-post{
+	padding-top: 0px;
+	font-size: 100%;
+	display: block;
+    padding: 50px;
+    text-decoration: none;
+    text-align: justify;
+    color: #44aaa1;
+}
+/* End of main info of member
+/* ------------------------------------------- */
+
+#member-info{
+	width: 75%;
+	float: right;
+	background-color: white;
+	padding-bottom: 500em;
+	margin-bottom: -500em;
+>>>>>>> refs/remotes/origin/master
 }
 
 .member-img{
@@ -302,3 +372,24 @@ body{
 	vertical-align: top;
 	margin-top: -5px;
 }
+<<<<<<< HEAD
+=======
+
+#comment-box{
+	width: 100%;
+	padding-top: 50%;
+	padding-bottom: 22%;
+	padding-left: 21px;
+	padding-right: 21px;
+}
+
+.submit-img{
+	padding-right: 3px;
+	width: 49%;
+	float: right;
+}
+
+.comment-box{
+	width: 100%;
+}
+>>>>>>> refs/remotes/origin/master
