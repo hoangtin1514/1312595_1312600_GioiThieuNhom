@@ -17,6 +17,7 @@ body{
 
 .wrapper{
 	font-size: 1.6em;
+	font-family: Open Sans;
 	margin: 0 auto;
 	max-width: 980px;
 	background-color: white;
@@ -40,7 +41,8 @@ body{
 	width: 25%;
 	height: auto;
 	text-align: center;
-	padding: 14px 10px;
+	padding: 14px 0px;
+	margin-bottom: -14px;
 	vertical-align: middle;
 	float: left;
 	display: inline-block;
@@ -48,7 +50,7 @@ body{
 
 .big-Star{
 	font-weight: bold;
-	font-size:110%;
+	font-size:100%;
 }
 
 .top-nav-right{
@@ -66,17 +68,19 @@ body{
 
 .list-nav li{
 	display: inline;
-	float:left;
+	float: left;
+	font-size: 90%;
 }
 
 .list-nav li a {
-	text-align: center;
     display: block;
-    width: 80px;
-    padding: 14px 12px;
+    width: 147px;
+    padding: 14px 48px;
     text-decoration: none;
+    text-align: right;
     color: white;
 }
+
 
 .list-nav li a:hover {
     background-color: #62a29e;
@@ -84,7 +88,7 @@ body{
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #ecb700;
     color: white;
 }
 
@@ -96,26 +100,27 @@ body{
 	width: 25%;
 	height: auto;
 	text-align: center;
-	padding: 14px 10px;
+	padding: 15px 10px;
 	vertical-align: middle;
 	float: left;
 	display: inline-block;
 	color: #7f8c8c;
 	background-color: #ececec;
+	font-size: 0.9em;
 }
 
 .abs-address{
 	width: 75%;
 	height: auto;
 	text-align: right;
-	padding: 14px 10px;
+	padding: 16px 40px;
 	vertical-align: middle;
 	float: right;
 	display: inline-block;
 	color: #7f8c8c;
 	background-color: #ececec;
+	font-size: 0.75em;
 }
-
 .main-area{
 	width: 100%;
 	background-color: #44aaa1;
@@ -139,7 +144,7 @@ body{
 }
 
 .left-nav ul li{
-	padding-top: 40px;
+	padding-top: 30px;
 	font-size: 90%;
 }
 
@@ -172,6 +177,7 @@ body{
 .team-img{
 	width: 100%;
 	float: left;
+	padding-top: 15px;
 }
 
 #team-pic{
@@ -278,6 +284,11 @@ body{
 	padding-bottom: 10px;
 	float: right;
 }
+<<<<<<< HEAD
+.pattern_decor{
+	vertical-align: top;
+	margin-top: -5px;
+=======
 
 
 @media only screen and (max-width: 700px) {
@@ -297,4 +308,5 @@ body{
 	.member-img img{
 		width: 50%;
 	}
+>>>>>>> refs/remotes/origin/HomePage
 }
