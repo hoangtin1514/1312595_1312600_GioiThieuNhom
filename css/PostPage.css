@@ -1,0 +1,330 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
+html{
+	background-color: #282828;
+}
+
+body{
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+
+#wrapper{
+	font-size: 1.6em;
+	font-family: Open Sans;
+	margin: 0 auto;
+	max-width: 980px;
+	background-color: white;
+	color:white;
+}
+
+.banner-img{
+	width: 100%;
+	height: auto;
+	float:left;
+}
+
+.top-nav{
+	width:100%;
+	background-color: #76c7c0;
+	float:left;
+	margin-top:-5px;
+}
+
+.team-name{
+	width: 25%;
+	height: auto;
+	text-align: center;
+	padding: 14px 0px;
+	margin-bottom: -14px;
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+}
+
+.big-Star{
+	font-weight: bold;
+	font-size:100%;
+}
+
+.top-nav-right{
+	width: 75%;
+	float: right;
+	font-size: 100%;
+}
+
+.top-nav-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} 
+
+.list-nav li{
+	display: inline;
+	float: left;
+	font-size: 90%;
+}
+
+.list-nav li a {
+    display: block;
+    width: 147px;
+    padding: 14px 48px;
+    text-decoration: none;
+    text-align: right;
+    color: white;
+}
+
+.list-nav li a:hover {
+    background-color: #62a29e;
+}
+
+.active {
+    background-color: #ecb700;
+}
+
+.top-detail-bar{
+	width: 100%;
+}
+
+.member-site{
+	width: 25%;
+	height: auto;
+	text-align: center;
+	padding: 15px 10px;
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+	color: #7f8c8c;
+	background-color: #ececec;
+	font-size: 0.9em;
+}
+
+.abs-address{
+	width: 75%;
+	height: auto;
+	text-align: right;
+	padding: 16px 40px;
+	vertical-align: middle;
+	float: right;
+	display: inline-block;
+	color: #7f8c8c;
+	background-color: #ececec;
+	font-size: 0.75em;
+}
+
+#main-area{
+	width: 100%;
+	/*background-color: #44aaa1;*/
+	background-color: black;
+	overflow: hidden;
+}
+
+#left-nav{
+	width: 25%;
+	float: left;
+	background-color: #44aaa1;
+	padding-bottom: 500em;
+	margin-bottom: -500em;
+}
+
+#left-nav ul{
+	padding-top: 25px;	
+}
+
+#left-nav ul li{
+	padding-top: 5px;
+	font-size: 90%;
+}
+
+#left-nav ul li a{
+	display: block;
+    padding: 10px 5px 8px 16px;
+    text-decoration: none;
+    text-align: left;
+    color:white;
+    background-color: #7ec2be;
+}
+
+.comment{
+	background-color: #ecb700 !important;
+}
+
+/* ------------------------------------------- */
+
+
+.member-detail ul{
+	list-style-type: none;
+    padding: 0px 0px 100px 0px;
+    width: 100%;
+}
+
+.member-post-header{
+	font-size: 2em;
+	text-align: center;
+    text-decoration: none;
+    color: #44aaa1;
+}
+.member-post{
+	padding-top: 0px;
+	font-size: 100%;
+	display: block;
+    padding: 50px;
+    text-decoration: none;
+    text-align: justify;
+    color: #44aaa1;
+}
+/* End of main info of member
+/* ------------------------------------------- */
+
+#member-info{
+	width: 75%;
+	float: right;
+	background-color: white;
+	padding-bottom: 500em;
+	margin-bottom: -500em;
+}
+
+.member-img{
+	width: 100%;
+	float: right;
+	padding-top: 15px;
+}
+
+#member-pic{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+   	padding-top: 20px;
+   	padding-bottom: 30px;
+   	width: 25%;
+   	height: auto;
+}
+
+.footer-area{
+	width: 100%;
+	background-color: #76c7c0;
+	float: left;
+}
+
+.contact-detail{
+	width: 50%;
+	float: left;
+}
+
+.team-name-footer{
+	width: 100%;
+	padding-left: 22%;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+}
+
+.detail{
+	width: 100%;
+	padding-left: 22%;
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+	padding-bottom: 20px;
+	vertical-align: middle;
+}
+
+.phone{
+	width: 100%;
+	padding-left: 22%;
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+}
+
+.e-mail{
+	width: 100%;
+	padding-left: 22%;
+	padding-bottom: 30px;
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+}
+
+.footer-right{
+	width: 35%;
+	float: right;
+}
+
+.right-detail{
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.ending{
+	width: 100%;
+	background-color: #6ab3ac;
+	float: left;
+}
+
+.end-left{
+	width: 50%;
+	padding-left: 11%;
+	padding-top: 14px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+.end-right{
+	width: 22%;
+	padding-top: 14px;
+	padding-bottom: 10px;
+	float: right;
+}
+
+.pattern_decor{
+	vertical-align: top;
+	margin-top: -5px;
+}
+
+#comment-box{
+	width: 100%;
+	padding-top: 50%;
+	padding-bottom: 22%;
+	padding-left: 21px;
+	padding-right: 21px;
+}
+
+.submit-img{
+	padding-right: 3px;
+	width: 49%;
+	float: right;
+}
+
+.comment-box{
+	width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .left-nav{
+    	width: 0%;
+    	visibility: hidden;
+    }
+
+    .member-info{
+    	width: 100%;
+    	float: left;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+	.member-img img{
+		width: 50%;
+	}
+}
