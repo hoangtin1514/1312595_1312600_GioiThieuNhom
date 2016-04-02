@@ -81,48 +81,22 @@ body{
     color: white;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-.list-nav li a:hover {
-    background-color: #62a29e;
-=======
->>>>>>> refs/remotes/origin/master
 
 .list-nav li a:hover {
     background-color: #62a29e;
     color: white;
-<<<<<<< HEAD
-=======
->>>>>>> master
->>>>>>> refs/remotes/origin/master
 }
 
 .active {
     background-color: #ecb700;
-<<<<<<< HEAD
     color: white;
-=======
-<<<<<<< HEAD
-=======
-    color: white;
->>>>>>> master
->>>>>>> refs/remotes/origin/master
 }
 
 .top-detail-bar{
 	width: 100%;
 }
 
-<<<<<<< HEAD
 .about-us{
-=======
-<<<<<<< HEAD
-.member-site{
-=======
-.about-us{
->>>>>>> master
->>>>>>> refs/remotes/origin/master
 	width: 25%;
 	height: auto;
 	text-align: center;
@@ -147,13 +121,6 @@ body{
 	background-color: #ececec;
 	font-size: 0.75em;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> master
->>>>>>> refs/remotes/origin/master
 .main-area{
 	width: 100%;
 	background-color: #44aaa1;
@@ -201,62 +168,12 @@ body{
     text-align: left;
 }
 
-<<<<<<< HEAD
 .team-info{
-=======
-<<<<<<< HEAD
-/* ------------------------------------------- */
-
-
-.member-detail ul{
-	list-style-type: none;
-    margin: 0;
-    padding: 0px 0px 100px 0px;
-    width: 100%;
-}
-
-.member-detail ul li{
-	padding-top: 0px;
-	font-size: 90%;
-}
-
-.member-detail ul li a{
-	display: block;
-    padding: 5px;
-    text-decoration: none;
-    text-align: center;
-    color: #44aaa1;
-}
-
-.member-detail li a:hover {
-    color: #ecb700;
-}
-
-/* End of main info of member
-/* ------------------------------------------- */
-
-.member-info{
-=======
-.team-info{
->>>>>>> master
->>>>>>> refs/remotes/origin/master
 	width: 75%;
 	float: right;
 	background-color: white;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-.member-img{
-	width: 100%;
-	float: right;
-	padding-top: 15px;
-}
-
-#member-pic{
-=======
->>>>>>> refs/remotes/origin/master
 .team-img{
 	width: 100%;
 	float: left;
@@ -264,25 +181,12 @@ body{
 }
 
 #team-pic{
-<<<<<<< HEAD
-=======
->>>>>>> master
->>>>>>> refs/remotes/origin/master
 	display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
    	padding-top: 20px;
    	padding-bottom: 30px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-   	width: 25%;
-   	height: auto;
-}
-
-=======
->>>>>>> refs/remotes/origin/master
    	width: 50%;
    	height: auto;
 }
@@ -302,10 +206,6 @@ body{
 	 padding-right: 10px;
 }
 
-<<<<<<< HEAD
-=======
->>>>>>> master
->>>>>>> refs/remotes/origin/master
 .footer-area{
 	width: 100%;
 	background-color: #76c7c0;
@@ -384,13 +284,6 @@ body{
 	padding-bottom: 10px;
 	float: right;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> master
->>>>>>> refs/remotes/origin/master
 .pattern_decor{
 	vertical-align: top;
 	margin-top: -5px;
