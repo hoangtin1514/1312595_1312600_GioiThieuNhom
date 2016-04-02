@@ -81,34 +81,21 @@ body{
     color: white;
 }
 
-<<<<<<< HEAD
-.list-nav li a:hover {
-    background-color: #62a29e;
-=======
-
 .list-nav li a:hover {
     background-color: #62a29e;
     color: white;
->>>>>>> master
 }
 
 .active {
     background-color: #ecb700;
-<<<<<<< HEAD
-=======
     color: white;
->>>>>>> master
 }
 
 .top-detail-bar{
 	width: 100%;
 }
 
-<<<<<<< HEAD
-.member-site{
-=======
 .about-us{
->>>>>>> master
 	width: 25%;
 	height: auto;
 	text-align: center;
@@ -133,10 +120,7 @@ body{
 	background-color: #ececec;
 	font-size: 0.75em;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> master
 .main-area{
 	width: 100%;
 	background-color: #44aaa1;
@@ -147,7 +131,6 @@ body{
 	width: 25%;
 	height: 100%;
 	float: left;
-	
 }
 
 
@@ -184,55 +167,12 @@ body{
     text-align: left;
 }
 
-<<<<<<< HEAD
-/* ------------------------------------------- */
-
-
-.member-detail ul{
-	list-style-type: none;
-    margin: 0;
-    padding: 0px 0px 100px 0px;
-    width: 100%;
-}
-
-.member-detail ul li{
-	padding-top: 0px;
-	font-size: 90%;
-}
-
-.member-detail ul li a{
-	display: block;
-    padding: 5px;
-    text-decoration: none;
-    text-align: center;
-    color: #44aaa1;
-}
-
-.member-detail li a:hover {
-    color: #ecb700;
-}
-
-/* End of main info of member
-/* ------------------------------------------- */
-
-.member-info{
-=======
 .team-info{
->>>>>>> master
 	width: 75%;
 	float: right;
 	background-color: white;
 }
 
-<<<<<<< HEAD
-.member-img{
-	width: 100%;
-	float: right;
-	padding-top: 15px;
-}
-
-#member-pic{
-=======
 .team-img{
 	width: 100%;
 	float: left;
@@ -240,23 +180,15 @@ body{
 }
 
 #team-pic{
->>>>>>> master
 	display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
    	padding-top: 20px;
    	padding-bottom: 30px;
-<<<<<<< HEAD
-   	width: 25%;
-   	height: auto;
-}
-
-=======
    	width: 50%;
    	height: auto;
 }
-
 
 .member-img{
 	width: 100%;
@@ -272,7 +204,6 @@ body{
 	 padding-right: 10px;
 }
 
->>>>>>> master
 .footer-area{
 	width: 100%;
 	background-color: #76c7c0;
@@ -351,11 +282,26 @@ body{
 	padding-bottom: 10px;
 	float: right;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 .pattern_decor{
 	vertical-align: top;
 	margin-top: -5px;
+}
+
+@media only screen and (max-width: 700px) {
+    .left-nav{
+    	width: 0%;
+    	visibility: hidden;
+    }
+
+    .team-info{
+    	width: 100%;
+    	float: left;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+	.member-img img{
+		width: 50%;
+	}
 }
