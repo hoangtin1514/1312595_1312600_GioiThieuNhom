@@ -64,7 +64,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-} 
+}  
 
 .list-nav li{
 	display: inline;
@@ -95,7 +95,7 @@ body{
 	width: 100%;
 }
 
-.about-us{
+.member-site{
 	width: 25%;
 	height: auto;
 	text-align: center;
@@ -167,41 +167,57 @@ body{
     text-align: left;
 }
 
-.team-info{
+/* ------------------------------------------- */
+
+
+.member-detail ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 100px 0px;
+    width: 100%;
+}
+
+.member-detail ul li{
+	padding-top: 0px;
+	font-size: 90%;
+}
+
+.member-detail ul li a{
+	display: block;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: #44aaa1;
+}
+
+.member-detail li a:hover {
+    color: #ecb700;
+}
+
+/* End of main info of member
+/* ------------------------------------------- */
+
+.member-info{
 	width: 75%;
 	float: right;
 	background-color: white;
 }
 
-.team-img{
+.member-img{
 	width: 100%;
-	float: left;
+	float: right;
 	padding-top: 15px;
 }
 
-#team-pic{
+#member-pic{
 	display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
    	padding-top: 20px;
    	padding-bottom: 30px;
-   	width: 50%;
+   	width: 25%;
    	height: auto;
-}
-
-.member-img{
-	width: 100%;
-	text-align: justify;
-}
-
-.member-img img{
-	 display: block;
-	 width: 25%;
-	 float:left;
-	 padding-left: 15px;
-	 padding-bottom: 30px;
-	 padding-right: 10px;
 }
 
 .footer-area{
@@ -282,6 +298,7 @@ body{
 	padding-bottom: 10px;
 	float: right;
 }
+
 .pattern_decor{
 	vertical-align: top;
 	margin-top: -5px;
@@ -293,7 +310,7 @@ body{
     	visibility: hidden;
     }
 
-    .team-info{
+    .member-info{
     	width: 100%;
     	float: left;
     }
