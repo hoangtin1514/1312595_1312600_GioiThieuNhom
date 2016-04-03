@@ -4,16 +4,16 @@
 
 Thành viên: 
 **1312595 Trịnh Xuân Tiến**
-**1312600 Nguyễn Hoàng Tín
+**1312600 Nguyễn Hoàng Tín**
 
-URL: **URL hosting của bài tập**
+URL: https://udpt-assignment.firebaseapp.com/index.html
 
 ## Yêu cầu
 
 Yêu cầu **GIT**:
 
-* [ ] Có sử dụng GIT.
-* [ ] Sử dụng GIT trên 1 branch.
+* [x] Có sử dụng GIT.
+* [x] Sử dụng GIT trên 1 branch.
 * [ ] Sử dụng GIT theo Centralized Workflow.
 * [x] Sử dụng GIT theo Feature Branch Workflow.
 * [x] Sử dụng GIT theo Gitflow Workflow.
